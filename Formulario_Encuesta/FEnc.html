@@ -14,15 +14,24 @@
     <p id="description">Gracias por dedicar unos minutos de su tiempo a completar este formulario.</p>
     <hr>
     <form id="survey-form" action="">
-        <label>Nombre</label>
+        <label id="name-label">Nombre</label>
         <input id="name" type="text" placeholder="Introduce tu nombre">
         <hr>
-        <label>Email</label>
+        <label id="email-label">Email</label>
         <input id="email" type="text" placeholder="Introduce tu email">
         <hr>
-        <label>Edad</label>
-        <input id="number" type="text" placeholder="Introduce tu edad">
+        <label id="number-label">Edad</label>
+        <input id="number" type="text" placeholder="Introduce tu edad" min="18" max="65">
         <hr>
+        <label id="dropdown-label">¿Cuál es tu rol?</label>
+        <select id="dropdown" name="Roles" size="1">
+            <option value="0" selected>Elige una opción</option>
+            <option value="1">Estudiante</option>
+            <option value="2">Trabajador/a</option>
+            <option value="3">Parado/a</option>
+            <option value="4">Jubilado/a</option>
+        </select>
+
     </form>
 </body>
 </html>
