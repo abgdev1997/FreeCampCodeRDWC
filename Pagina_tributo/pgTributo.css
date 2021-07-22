@@ -1,0 +1,23 @@
+header{
+    background: linear-gradient(35deg,white, blue, gray);
+}
+
+body{
+    background: linear-gradient(35deg,white,blue,gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#image{
+    width: 1000px;
+    height: 500px;
+}
