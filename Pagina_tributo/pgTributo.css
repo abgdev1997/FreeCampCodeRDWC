@@ -8,16 +8,18 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
-#subtitulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#divLista{
+    text-align: left;
 }
 
 #image{
-    width: 1000px;
-    height: 500px;
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
