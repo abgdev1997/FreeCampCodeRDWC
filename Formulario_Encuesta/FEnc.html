@@ -18,12 +18,12 @@
     <form id="survey-form" action="">
       <div>
       <label id="name-label">Nombre</label>
-      <input id="name" type="text" placeholder="Introduce tu nombre" />
+      <input id="name" type="text" placeholder="Introduce tu nombre" required/>
       </div>
       <br>
       <div>
-      <label id="email-label">Email</label>
-      <input id="email" type="email" placeholder="Introduce tu email" />
+      <label id="email-label">Email</slabel>
+      <input id="email" type="email" placeholder="Introduce tu email" required/>
       </div>
       <br>
       <div>
@@ -34,6 +34,7 @@
         placeholder="Edad"
         min="18"
         max="65"
+        required
       />
       </div>
       <br>
@@ -70,7 +71,12 @@
         <textarea id="text-area" name="areatexto" rows="5" cols="70"></textarea>
       </div>
       <hr />
-      <button type="submit">Enviar Formulario</button>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+      
     </form>
   </body>
 </html>
