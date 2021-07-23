@@ -1,60 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encuesta Trans. Pub.</title>
-    <link href="./FEnc.css" rel="stylesheet" type="text/css">
-</head>
-<header>
+    <link href="./FEnc.css" rel="stylesheet" type="text/css" />
+  </head>
+  <header>
     <h1 id="title">FORMULARIO DE ENCUESTA SOBRE EL TRANSPORTE PÚBLICO</h1>
-</header>
-<body>
-    <p id="description">Gracias por dedicar unos minutos de su tiempo a completar este formulario.</p>
-    <hr>
+  </header>
+  <body>
+    <p id="description">
+      Gracias por dedicar unos minutos de su tiempo a completar este formulario.
+    </p>
+    <hr />
     <form id="survey-form" action="">
-        <label id="name-label">Nombre</label>
-        <input id="name" type="text" placeholder="Introduce tu nombre">
-        <hr>
-        <label id="email-label">Email</label>
-        <input id="email" type="text" placeholder="Introduce tu email">
-        <hr>
-        <label id="number-label">Edad</label>
-        <input id="number" type="text" placeholder="Introduce tu edad" min="18" max="65">
-        <hr>
-        <label id="dropdown-label">¿Cuál es tu rol?</label>
-        <select id="dropdown" name="Roles" size="1">
-            <option value="0" selected>Elige una opción</option>
-            <option value="1">Estudiante</option>
-            <option value="2">Trabajador/a</option>
-            <option value="3">Parado/a</option>
-            <option value="4">Jubilado/a</option>
-        </select>
-        <hr>
-        <label id="radio-label">¿Utiliza usted normalmente el transporte público?</label>
-        <br>
-        <input type="radio" name="transportepublico" value="1">Poco
-        <br>
-        <input type="radio" name="transportepublico" value="2">Alguna vez
-        <br>
-        <input type="radio" name="transportepublico" value="3">Habitualmente
-        <br>
-        <input type="radio" name="transportepublico" value="4">Todos los días
-        <hr>
-        <label id="verificacion-label">Señale que medios de transporte público utiliza</label>
-        <br>
-        <input type="checkbox" name="tipotransportepublico" value="1">Bus
-        <br>
-        <input type="checkbox" name="tipotransportepublico" value="2">Metro
-        <br>
-        <input type="checkbox" name="tipotransportepublico" value="3">Tranvia
-        <hr>
-        <label id="text-area-label">Escriba aquí alguna queja que tenga sobre el transporte público</label>
-        <br> 
+      <div>
+      <label id="name-label">Nombre</label>
+      <input id="name" type="text" placeholder="Introduce tu nombre" />
+      </div>
+      <br>
+      <div>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Introduce tu email" />
+      </div>
+      <br>
+      <div>
+      <label id="number-label">Edad</label>
+      <input
+        id="number"
+        type="number"
+        placeholder="Edad"
+        min="18"
+        max="65"
+      />
+      </div>
+      <br>
+      <label id="dropdown-label">¿Cuál es tu rol?</label>
+      <select id="dropdown" name="Roles" size="1">
+        <option value="0" selected>Elige una opción</option>
+        <option value="1">Estudiante</option>
+        <option value="2">Trabajador/a</option>
+        <option value="3">Parado/a</option>
+        <option value="4">Jubilado/a</option>
+      </select>
+      <hr />
+      <div>
+        <label id="radio-label"
+          >¿Utiliza usted normalmente el transporte público?</label
+          >
+        <input type="radio" name="transportepublico" value="1" />Poco
+        <input type="radio" name="transportepublico" value="2" />Alguna vez
+        <input type="radio" name="transportepublico" value="3" />Habitualmente
+        <input type="radio" name="transportepublico" value="4" />Todos los días
+      </div>
+      <hr />
+      <div>
+        <label id="verificacion-label"
+          >Señale que medios de transporte público utiliza</label
+        >
+        <input type="checkbox" name="tipotransportepublico" value="1" />Bus
+        <input type="checkbox" name="tipotransportepublico" value="2" />Metro
+        <input type="checkbox" name="tipotransportepublico" value="3" />Tranvia
+        <label id="text-area-label"
+          >Escriba aquí alguna queja que tenga sobre el transporte
+          público</label
+        >
         <textarea id="text-area" name="areatexto" rows="5" cols="70"></textarea>
-        <hr>
-        <button type="submit">Enviar Formulario</button>
+      </div>
+      <hr />
+      <button type="submit">Enviar Formulario</button>
     </form>
-</body>
+  </body>
 </html>
