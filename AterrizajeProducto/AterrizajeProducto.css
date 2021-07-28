@@ -1,0 +1,154 @@
+header{
+    display: flex;
+    position: fixed;
+    background-color: #EEEEEE;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#header-img{
+    width: 300px;
+    height: 50px;
+}
+
+#nav-bar > a{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+body{
+    background-color: #EEEEEE;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-right: 50%;
+    text-align: center;
+}
+
+#email{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+}
+
+.botonSelect:hover{
+    cursor: pointer;
+    background-color: #248C46;
+    color: #EEEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#features{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.carta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#howitworks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#princing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    margin: 15px;
+}
+
+.cartaprecio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 368px;
+    height: 430px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tituloprecio{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #c4c4c4;
+    position: absolute;
+    top: 0;
+    margin-top: 0%;
+    padding-top: 1%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.botonSelect{
+    width: 131px;
+    height: 43px;
+    background-color: #47CF73;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media 
+
+footer a{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+}
+
+
